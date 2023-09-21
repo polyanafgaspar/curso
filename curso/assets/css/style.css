@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #d388a5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #c56767;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.relogio{
+  font-size: 3em;
+}
+
+.pausado{
+  color: rgba(101, 196, 101, 0.562);
+}
+
+button {
+  border: none;
+  background: #502db1b2;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-style: italic;
+}
+
+.button-href{
+  color: rgb(235, 227, 227);
+  text-decoration: none;
+}
+
+.calculadora{
+  width: 100%;
+}
+
+.display-calculadora{
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  border-radius: 8px;
+}
+
+.button-calc{
+ width: 100%;
+ background-color: rgba(85, 149, 233, 0.836);
+}
+
+.button-calc:hover{
+ width: 100%;
+ background-color: rgba(33, 90, 165, 0.705);
+}
+
+.title-calc{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font: bold;
+  text-align: center;
+  padding-bottom: 2%;
+}
