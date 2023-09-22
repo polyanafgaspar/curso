@@ -1,0 +1,27 @@
+.calculadora{
+    width: 100%;
+  }
+  
+  .display-calculadora{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    border-radius: 8px;
+  }
+  
+  .button-calc{
+   width: 100%;
+   background-color: rgba(85, 149, 233, 0.836);
+  }
+  
+  .button-calc:hover{
+   width: 100%;
+   background-color: rgba(33, 90, 165, 0.705);
+  }
+  
+  .title-calc{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font: bold;
+    text-align: center;
+    padding-bottom: 2%;
+  }

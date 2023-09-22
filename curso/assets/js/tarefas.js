@@ -46,7 +46,7 @@ function limparInput(){
 function addTarefasSalvas(){
     const tarefasSalvas = localStorage.getItem('tarefas');
     const listaTarefasSalvas = JSON.parse(tarefasSalvas);
-
+    if(!tarefasSalvas) return;
     for(let tarefa of listaTarefasSalvas){
         criarTarefa(tarefa)
     }

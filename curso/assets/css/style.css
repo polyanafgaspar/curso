@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
   --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color-darker: rgb(97, 169, 184);
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 .container {
   max-width: 640px;
   margin: 50px auto;
-  background: #d388a5;
+  background: #d85518d0;
   padding: 20px;
   border-radius: 10px;
 }
@@ -56,54 +56,25 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
-.relogio{
-  font-size: 3em;
-}
-
-.pausado{
-  color: rgba(101, 196, 101, 0.562);
-}
-
 button {
   border: none;
-  background: #502db1b2;
+  background: #4f2bb3b2;
   font-size: 18px;
   font-weight: 700;
   height: 50px;
   cursor: pointer;
   border-radius: 7px;
   font-style: italic;
+  width: 100%;
+}
+
+.ajust-button-menu{
+  columns: 3;
+  width: 100%;
+  height: 50px;
 }
 
 .button-href{
   color: rgb(235, 227, 227);
   text-decoration: none;
-}
-
-.calculadora{
-  width: 100%;
-}
-
-.display-calculadora{
-  font-size: 2em;
-  width: 100%;
-  text-align: right;
-  border-radius: 8px;
-}
-
-.button-calc{
- width: 100%;
- background-color: rgba(85, 149, 233, 0.836);
-}
-
-.button-calc:hover{
- width: 100%;
- background-color: rgba(33, 90, 165, 0.705);
-}
-
-.title-calc{
-  font-family: "Lucida Console", "Courier New", monospace;
-  font: bold;
-  text-align: center;
-  padding-bottom: 2%;
 }
